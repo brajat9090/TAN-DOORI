@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sub"
+        android:id="@+id/img"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:id="@+id/tv1"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="22dp"
+        android:layout_marginBottom="18dp"
+        android:textStyle="italic"
+        android:text="Your query has been submitted. We will get back to you within 2-3 working days."/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_corners5"
+        android:text="OK"
+        android:id="@+id/btnq"
+        android:textStyle="bold|italic"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+

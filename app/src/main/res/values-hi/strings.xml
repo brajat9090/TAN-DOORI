@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TAN DOORI</string>
+    <string name="name">अपना नाम दर्ज करें (आवश्यक है)</string>
+    <string name="age">उम्र दर्ज करें (आवश्यक है)</string>
+    <string name="test">COVID 19 परीक्षण किया था</string>
+    <string name="yn">हाँ या ना (आवश्यक है)</string>
+    <string name="yes_then">यदि हाँ तो:</string>
+    <string name="positive">सकारात्मक या नकारात्मक</string>
+    <string name="other">कोई अन्य बीमारी (वैकल्पिक)</string>
+    <string name="submit">प्रस्तुत</string>
+    <string name="language">भाषा चुनें</string>
+</resources>

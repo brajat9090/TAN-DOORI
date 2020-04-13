@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedbackActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        android:id="@+id/one"
+        android:text="Feedback"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"/>
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:rating="4.0"
+        android:progressTint="#eb6834"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ratingBar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:inputType="textCapSentences"
+                android:hint="Any Suggestions"
+                android:paddingTop="20dp"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:paddingBottom="20dp"
+                android:textSize="20dp"
+                android:id="@+id/ed1"
+                android:background="@drawable/edit_text_border"
+           />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button"
+                android:layout_below="@+id/ed1"
+                android:layout_marginTop="20dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/round_corners5"
+                android:text="Submit"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textAllCaps="false"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

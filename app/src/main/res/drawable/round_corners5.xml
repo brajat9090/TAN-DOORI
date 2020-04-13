@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  res/drawable/rounded_edittext.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <solid
+        android:color="#e65010" />
+    <corners
+        android:bottomLeftRadius="30dp"
+        android:bottomRightRadius="30dp"
+        android:topRightRadius="30dp"
+        android:topLeftRadius="30dp"/>
+</shape>

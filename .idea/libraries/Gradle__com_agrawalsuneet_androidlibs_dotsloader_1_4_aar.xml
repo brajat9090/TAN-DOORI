@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.agrawalsuneet.androidlibs:dotsloader:1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dotsloader-1.4.aar/7157489fbb7f67d31df829a218cb895c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dotsloader-1.4.aar/7157489fbb7f67d31df829a218cb895c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.agrawalsuneet.androidlibs/dotsloader/1.4/939b8deeb7a9be8a334c6d48d66d91420047b0b5/dotsloader-1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

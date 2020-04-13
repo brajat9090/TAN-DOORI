@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "659896178136",
+    "firebase_url": "https://tandoori-aae8b.firebaseio.com",
+    "project_id": "tandoori-aae8b",
+    "storage_bucket": "tandoori-aae8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659896178136:android:a0288ae27fcc76fd330ead",
+        "android_client_info": {
+          "package_name": "com.poornima.tandoori"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659896178136-8livq5s9p35269qjf8de1l768b3ats7n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.poornima.tandoori",
+            "certificate_hash": "d963f62395f89356a1349cfbbc57ccffa1ca2efb"
+          }
+        },
+        {
+          "client_id": "659896178136-pjs6obumt65u06vsse1j8jijiaa7qgcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659896178136-pjs6obumt65u06vsse1j8jijiaa7qgcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

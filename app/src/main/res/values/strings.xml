@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TAN DOORI</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="google_map_key" translatable="false">Your Google Map API_KEY</string>
+    <string name="name">Enter name (required)</string>
+    <string name="age">Enter age(required)</string>
+    <string name="test">Had COVID-19 test</string>
+    <string name="yn">Yes or No (required)</string>
+    <string name="yes_then">If yes then:</string>
+    <string name="positive">Positive or Negative</string>
+    <string name="other">Any other disease (optional)</string>
+    <string name="submit">SUBMIT</string>
+    <string name="language">Change Language</string>
+    <string name="about" translatable="false"><b><i>Objective:</i></b>\nThe application is designed to create awareness and promote social distancing among the society during this pandemic.
+        It is very important for people to understand and adhere to social distancing for their own safety and prevent themselves
+        from the contagious virus which is causing numerous deaths and serious infection. The application works on mobile devices
+        with the help of GPS system. Any physical contact between the users of this application within the said limit
+        (which is 3 meters minimum) shall alert them. The alert is in form of a tune which is customizable and the <i> COVID </i>
+        caller tune is set in default.\n\n
+
+<b><i> Implementation:</i></b>\nThe application works only on mobile devices having GPS system. The application uses Google Maps API.
+        The Firebase Database is used to store the data. The application is easy to use. A simple registration needs to be done using
+        an <i> OTP (One-Time Password)</i> followed by certain basic information of the user like their name, current status of body
+        health etc and finally the user is set to make the best use of the application. The application is made for the comfort and
+        ease of the user and therefore it has bi-lingual feature inbuilt (i.e., Hindi and English).\n\n
+        <b><i>Application:</i></b>\n
+1.	The application works to promote social awareness and create an idea of social distancing among maximum people for their safety.\n\n
+2.	A registered user will be able to obtain the knowledge of density or status of the people they are coming in contact with
+        (provided both the people have the application installed).\n\n
+3.	A set of guide and frequently asked questions have been installed as inbuilt to solve any queries or doubts of the user regarding
+        the pandemic.\n\n
+4.	The application is a digital handbook to provide assistance to the public in observing the need for social distancing,
+        supporting the “stay indoors” urge of the Government and various other ways to prevent the same from risking themselves
+        and fighting against the current world enemy-<b>COVID-19.</b></string>
+</resources>

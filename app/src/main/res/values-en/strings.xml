@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TAN DOORI</string>
+    <string name="name">Enter name (required)</string>
+    <string name="age">Enter age(required)</string>
+    <string name="test">Had COVID-19 test</string>
+    <string name="yn">Yes or No (required)</string>
+    <string name="yes_then">If yes then:</string>
+    <string name="positive">Positive or Negative</string>
+    <string name="other">Any other disease (optional)</string>
+    <string name="submit">SUBMIT</string>
+    <string name="language">Change Language</string>
+</resources>

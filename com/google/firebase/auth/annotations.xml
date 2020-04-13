@@ -1,0 +1,5 @@
+<root>
+    <item name='com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

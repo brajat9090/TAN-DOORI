@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context="com.poornima.tandoori.homeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lay1"
+        android:background="#FFFFFF">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/fin"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lay1"
+        android:id="@+id/lay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="10dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggle"
+            android:checked="true"
+            android:thumb="@drawable/thumb1"
+            android:track="@drawable/track"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:textSize="20dp"
+        android:id="@+id/tv1"
+        android:layout_below="@+id/lay1"
+        android:layout_toLeftOf="@+id/lay2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"
+        android:id="@+id/your_id"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:layout_below="@+id/your_id"
+        android:text="Help Center"
+        android:paddingTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:onClick="Help"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:layout_below="@+id/tv2"
+        android:text="Feedback"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+         android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:onClick="Feedback"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:layout_below="@+id/tv3"
+        android:text="About Us"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:onClick="About"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:layout_below="@+id/tv4"
+        android:text="Covid-19 updates"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:onClick="stats"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"
+        android:id="@+id/your_id2"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_below="@+id/your_id2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_corners5"
+        android:text="Share"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:onClick="Share"
+        />
+
+
+
+
+
+</RelativeLayout>
