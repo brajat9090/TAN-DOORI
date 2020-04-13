@@ -5,4 +5,4 @@ The application is designed to create awareness and promote social distancing am
 The application works only on mobile devices having GPS system. The application uses Google Maps API. The Firebase Database is used to store the data. The application is easy to use. A simple registration needs to be done using an OTP (One-Time Password) followed by certain basic information of the user like their name, current status of body health etc and finally the user is set to make the best use of the application. The application is made for the comfort and ease of the user and therefore it has bi-lingual feature inbuilt (i.e., Hindi and English).
 
 # TO RUN
-Create your own Google Map API_KEY from developers console of Google. Copy and Paste that API key in "app/src/main/res/values/strings.xml" file and "app/google-services.json" file
+Create your own Google Map API_KEY from developers console of Google. Copy and Paste that API key in "app/src/main/res/values/strings.xml" and file Firebase API key inside this "app/google-services.json" file
